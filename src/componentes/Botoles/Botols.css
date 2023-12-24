@@ -1,0 +1,8 @@
+.BottolContainer{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+}

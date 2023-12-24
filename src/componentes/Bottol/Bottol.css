@@ -1,0 +1,29 @@
+.cartViewContainer{
+    width: 24rem;
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 35px;
+}
+.cartViewContainer img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.namePriceContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.namePriceContainer h4{
+    color: black;
+}
+.btnCenter{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+}
+.btnClicked{
+    background-color: gray;
+}

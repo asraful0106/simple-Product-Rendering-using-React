@@ -1,0 +1,55 @@
+.modalFullContainer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(12px);
+}
+.modalContainer{
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    border-radius: 15px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    color: black;
+}
+.modalBody{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 2rem 0 2rem;
+}
+.modalBody img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+.modalInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.totalQuntity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+}
+.quantityBtn{
+    background-color: gainsboro;
+    color: black;
+}
+.quantityInfo {
+    margin: 0 1rem;
+}
+.modalInfo h5{
+    margin: 0 1rem;
+}
